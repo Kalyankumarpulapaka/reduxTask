@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=2000&t=st=1718734440~exp=1718735040~hmac=1211f41b3357dcb89c4852bff879a188562b6768723877c90fdb6b57ebfbaeee');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; 
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  .container {
+    padding: 10px;
+    width: 800px;
+  
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.689) ;
+  }
+  
+  .Chead {
+    display: flex;
+  }
+  
+  .cBody {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pb {
+    margin-left: 20px;
+  }
+  
+  .cardbody, .cardbody1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
